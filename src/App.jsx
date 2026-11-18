@@ -71,7 +71,7 @@ const App = () => {
   }, [])
 
   return (
-    <div className='dark:bg-black relative'>
+    <div className='dark:bg-black relative overflow-hidden'>
 
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero />
